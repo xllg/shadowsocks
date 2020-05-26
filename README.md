@@ -1,11 +1,13 @@
 # shadowsocks一键安装脚本笔记
 
-安装命令
+安装命令：
 chmod +x shadowsocks.sh
+
 systemctl stop firewalld && systemctl disable firewalld
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 
 扩展命令：
+
 启动：/etc/init.d/shadowsocks start
 停止：/etc/init.d/shadowsocks stop
 重启：/etc/init.d/shadowsocks restart
