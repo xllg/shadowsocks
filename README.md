@@ -6,7 +6,7 @@ wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/
 
 chmod +x shadowsocks.sh
 
-systemctl stop firewalld && systemctl disable firewalld
+systemctl stop firewalld && systemctl disable firewalld （好像不用关闭防火墙）
 
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 
