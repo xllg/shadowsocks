@@ -2,7 +2,7 @@
 
 安装命令：
 
-wget --no-check-certificate -O shadowsocks.sh https://github.com/xllg/shadowsocks/blob/master/shadowsocks.sh
+wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/xllg/shadowsocks/master/shadowsocks.sh
 
 chmod +x shadowsocks.sh
 
@@ -23,3 +23,4 @@ systemctl stop firewalld && systemctl disable firewalld
 配置文件路径：/etc/shadowsocks.json
 
 卸载方法：/usr/local/src/shadowsocks.sh uninstall
+
