@@ -2,9 +2,7 @@
 
 安装命令：
 
-wget --no-check-certificate -O shadowsocks.sh
-
-https://github.com/xllg/shadowsocks/blob/master/shadowsocks.sh
+wget --no-check-certificate -O shadowsocks.sh https://github.com/xllg/shadowsocks/blob/master/shadowsocks.sh
 
 chmod +x shadowsocks.sh
 
