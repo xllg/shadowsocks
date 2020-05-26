@@ -1,6 +1,6 @@
-# shadowsocks一键安装脚本笔记
+# shadowsocks搭建笔记
 
-* 安装命令：
+* 服务端安装命令：
 
 wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/xllg/shadowsocks/master/shadowsocks.sh
 
@@ -9,6 +9,10 @@ chmod +x shadowsocks.sh
 systemctl stop firewalld && systemctl disable firewalld
 
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
+
+* 客户端下载地址：
+
+https://github.com/shadowsocks/shadowsocks-windows/releases
 
 * 扩展命令：
 
